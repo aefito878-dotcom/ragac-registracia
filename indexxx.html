@@ -6,33 +6,74 @@
     <title>mevarme</title>
   <style>
         body {
-            font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold',;
+            font-family: 'JetBrains Mono', monospace;
             margin: 200px;
             padding: 10px;
             text-align: right;
             background-color: #9a9797;
-            color: green
+            color: rgb(170, 20, 20);
             font-size: 10px;
-        
+        margin-top: 0px;
+    
         }
         label {
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
             font-weight: bold; 
             font-size: 50px;
+            size:100px;
+            margin-top: 0%;
+    
         }
+        h1 {
+            color: rgb(170, 20, 20);
+            font-size: 50px;
+            margin-bottom: 0px;
+            text-align: center;
+            margin-top:   0px;
+        }
+        input[type="text"]
+        {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="email"]
+        {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"]{
+
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
     </style>
 </head>
 <body>
+    <h1>registration</h1>
 <form>
-    <laabel>name</laabel><br>
-    <input type="text" name="name" placeholder="Enter your name"><br>
-    <label>email</label><br>
+    <label>Name</label><br>
+    <input type="text" Name="name" placeholder="Enter your name"><br>
+    <label>Email</label><br>
     <input type="email" name="email" placeholder="Enter your email"><br>
-    <label>adress</label><br>
-    <input type="text" name="adress" placeholder="Enter your adress"><br>
-    <label>message</label><br>
+    <label>Address</label><br>
+    <input type="text" name="address" placeholder="Enter your address"><br>
+    <label>Message</label><br>
     <input type="text" name="message" placeholder="Enter your message"><br>
+    <input type="submit" name="submit" value="Submit"><br>
 </form>
 </body>
 </html>
